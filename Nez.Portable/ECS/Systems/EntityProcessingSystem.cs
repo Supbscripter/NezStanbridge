@@ -8,6 +8,7 @@ namespace Nez
 	/// </summary>
 	public abstract class EntityProcessingSystem : EntitySystem
 	{
+
 		public EntityProcessingSystem(Matcher matcher) : base(matcher)
 		{
 		}
